@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle story-formatter",
+        "command": "story-formatter:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "story-formatter",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "story-formatter:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
